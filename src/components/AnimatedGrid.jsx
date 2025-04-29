@@ -42,5 +42,5 @@ const AnimatedGrid = () => {
     </div>
   );
 };
-
+// Animated Grid 
 export default AnimatedGrid;
