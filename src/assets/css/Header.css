@@ -1,0 +1,31 @@
+@keyframes elasticBounce {
+  0% {
+    transform: scale(0.8);
+  }
+  40% {
+    transform: scale(1.15, 0.95);
+  }
+  60% {
+    transform: scale(0.95, 1.05);
+  }
+  80% {
+    transform: scale(1.05, 0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.elastic-bounce {
+  animation: elasticBounce 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.nav-link:hover::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  background: rgba(233, 213, 255, 0.3);
+  border-radius: 9999px;
+  z-index: -1;
+  animation: elasticBounce 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
