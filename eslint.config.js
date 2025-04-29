@@ -36,3 +36,4 @@ export default [
     },
   },
 ]
+// eslint config
