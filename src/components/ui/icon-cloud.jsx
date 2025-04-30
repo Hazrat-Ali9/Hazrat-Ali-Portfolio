@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTheme } from "next-themes";
 import { Cloud, fetchSimpleIcons, renderSimpleIcon } from "react-icon-cloud";
-
+// Icon cloud
 export const cloudProps = {
   containerProps: {
     style: {
