@@ -1,5 +1,5 @@
 import IconCloud from "./ui/icon-cloud";
-
+// Globe 
 const slugs = [
   "typescript",
   "javascript",
