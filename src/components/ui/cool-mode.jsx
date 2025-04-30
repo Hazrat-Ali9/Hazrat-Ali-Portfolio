@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-
+// Cool Mode
 const getContainer = () => {
   const id = "_coolMode_effect";
   let existingContainer = document.getElementById(id);
