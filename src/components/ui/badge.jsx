@@ -30,5 +30,5 @@ function Badge({
 }) {
   return (<div className={cn(badgeVariants({ variant }), className)} {...props} />);
 }
-
+// Budge jsx
 export { Badge, badgeVariants }
