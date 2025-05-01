@@ -9,7 +9,7 @@ import {
   Trophy,
 } from "lucide-react";
 import { motion } from "framer-motion";
-
+// Education
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
