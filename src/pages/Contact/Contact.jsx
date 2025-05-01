@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Send, Phone, MapPin, Mail } from "lucide-react";
-
+// Contact Jsx 
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
