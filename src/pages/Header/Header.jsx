@@ -10,7 +10,7 @@ import {
   FaBars,
 } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
-
+// Header jsx 
 export default function Header() {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState(() => {
