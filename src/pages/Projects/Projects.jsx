@@ -2,7 +2,7 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
-
+// Projects 
 const projects = [
   {
     title: "Hazrat Ali Problem Solving",
