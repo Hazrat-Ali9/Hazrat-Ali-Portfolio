@@ -1,6 +1,6 @@
 import React from "react";
 import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
-
+// Experiance 
 const ExperienceCard = ({
   title,
   company,
