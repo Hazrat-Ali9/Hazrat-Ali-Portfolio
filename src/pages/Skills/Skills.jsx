@@ -31,7 +31,7 @@ import { TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
 import { MdAnimation } from "react-icons/md";
 import { FcWorkflow } from "react-icons/fc";
-
+// Skills jsx
 const SkillCard = ({ icon: Icon, title, skills, color }) => (
   <Card className="group relative overflow-hidden bg-gray-900/80 border-gray-700 hover:scale-[1.02] transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20">
     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[rgba(100,100,255,0.1)] to-transparent group-hover:via-[rgba(100,100,255,0.2)] animate-shimmer"></div>
